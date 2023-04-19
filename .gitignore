@@ -1,0 +1,12 @@
+__pycache__
+.venv
+.vscode
+.env
+data
+snippets.py
+notes.txt
+*.py[cod]
+TODO.txt
+temp_*
+old*
+output

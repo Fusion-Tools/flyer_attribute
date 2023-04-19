@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "flyer-attribute"
+version = "0.1.0"
+description = ""
+authors = ["fuser-vijay <vijaykumar.m@fusionanalytics.com>"]
+readme = "README.md"
+packages = [{include = "flyer_attribute"}]
+
+[tool.poetry.dependencies]
+python = ">3.8,<4.0"
+python-dotenv = "^1.0.0"
+siuba = "^0.4.2"
+fusion-db = {path = "fusion_pkgs/fusion_db-0.0.1-py3-none-any.whl"}
+fusion-kf = {path = "fusion_pkgs/fusion_kf-0.1.0-py3-none-any.whl"}
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
