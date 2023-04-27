@@ -10,8 +10,8 @@ packages = [{include = "flyer_attribute"}]
 python = ">3.8,<4.0"
 python-dotenv = "^1.0.0"
 siuba = "^0.4.2"
-fusion-db = {path = "fusion_pkgs/fusion_db-0.0.1-py3-none-any.whl"}
-fusion-kf = {path = "fusion_pkgs/fusion_kf-0.1.0-py3-none-any.whl"}
+fusion-db = {git = "https://github.com/Fusion-Tools/fusion_db"}
+fusion-kf = {git = "https://github.com/Fusion-Tools/fusion_kf"}
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
